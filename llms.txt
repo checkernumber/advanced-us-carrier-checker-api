@@ -1,0 +1,22 @@
+# CheckNumber Advanced US Carrier Checker API
+> Official integration context generated from the checked API expansion manifest.
+
+## Canonical resources
+- [us_carrier_premium](https://docs.checknumber.ai/advanced-us-carrier-checker)
+
+## Contract facts
+- API base URL: https://api.checknumber.ai
+- Authentication: `X-API-Key` request header
+- API key environment variable: `CHECKNUMBER_API_KEY`
+- Processing mode: async_bulk
+- Current prices are not embedded; use the official pricing page.
+
+## Products
+- `us_carrier_premium`: Advanced US Carrier Checker · input `phone` · fields: Number, number_type, carrier, city
+
+## Safety
+- Process only identifiers you are authorized to verify.
+- Do not expose API keys in browser code or commit secrets.
+- An undetermined result is not a confirmed negative.
+
+Last reviewed: 2026-08-18.
